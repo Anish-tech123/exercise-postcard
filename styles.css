@@ -1,0 +1,55 @@
+body {
+	background: black;
+	height: 100vh;
+	font-family: "Playwrite BE VLG", cursive;
+	font-size: 12px;
+}
+* {
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 15px;
+}
+
+.postcard-header img {
+	width: 40px;
+	height: 40px;
+}
+
+.postcard-header h1 {
+	margin: 0;
+	width: 700px;
+}
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: 2px solid grey;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: grey;
+	padding: 5;
+}
